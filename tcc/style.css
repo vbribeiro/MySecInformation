@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== CORES ========== */
+:root {
+    --dark-blue: #0E3A82;
+    --dark-orange: #FC9C36;
+    --soft-orange: #FEB545;
+    --color-white: #fff;
+    --color-gradient1Blue: #83c9fc;
+    --color-gradient2Blue: #4c8fdc;
+    --font-color: #767676;
+    --color-background: #E6F6FF;
+    --color-input: #F6F6F6;
+    --color-btnSim: #A7F279;
+    --color-btnNao: #FC5959;
+    --color-bgcontatos: #f9f9f9;
+}
+
+/* ========== HOME TOPO ========== */
+.header {
+    width: 100vw;
+    background: var(--dark-blue);
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+.header .headerItens,
+.header .headerItens ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header .headerItens .headerItensMenu li a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+/* ========== HOME FIRST CONTAINER ========== */
+.firstContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(130deg, #83c9fc, #4c8fdc);
+    height: 800px;
+}
+
+.firstContainer .illustration {
+    width: auto;
+    position: relative;
+    top: 80px;
+}
+
+.firstContainer .firstContainerContent {
+    padding: 0 150px 0 0;
+}
+
+.firstContainer .firstContainerContent h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    color: var(--color-white);
+} 
+
+.firstContainer .firstContainerContent p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 27px;
+    color: var(--color-white);
+    margin: 38px 0 64px;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background: linear-gradient(180deg, #FC9C36, #FEB545);
+    padding: 15px 50px;
+    border-radius: 11px;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.firstContainer .firstContainerContent .button:hover {
+    background: #FEB545;
+}
+
+/* ========== HOME SECOND CONTAINER ========== */
+.secondContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10% 12%;
+}
+
+.secondContainer .secondContainerContent h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: bold;
+    color: var(--dark-orange);
+}
+
+.secondContainer .secondContainerContent p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: var(--font-color);
+}
+
+/* ========== HOME THIRD CONTAINER ========== */
+.thirdContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 12%;
+    background: var(--color-background);
+}
+
+.thirdContainer .thirdContainerContent {
+    padding: 0 0 0 10%;
+}
+
+.thirdContainer .thirdContainerContent h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.thirdContainer .thirdContainerContent p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: var(--font-color);
+}
+
+.thirdContainer .thirdContainerContent .miniAlert {
+    font-size: 14px;
+    margin: 38px 0 64px;
+}
+
+/* ========== FOOTER ========== */
+.rodapeContainer {
+    width: 100vw;
+    background: var(--dark-blue);
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* ========== PÁGINA FORMULÁRIO ========== */
+.formContent {
+    background: var(--color-background);
+}
+
+.formContent .formContentParagrafo {
+    padding: 100px 200px;
+}
+
+.formContent .formContentParagrafo p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: var(--font-color);
+}
+
+.formContent .formContentParagrafo p .textoMaior {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: var(--dark-blue);
+}
+
+.form {
+    padding: 70px 20%;
+}
+
+.form .pg {
+    padding: 25px 0;
+}
+
+.form .formCols {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botoesForm a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background: linear-gradient(180deg, #FC9C36, #FEB545);
+    padding: 15px 50px;
+    border-radius: 11px;
+    text-decoration: none;
+    color: var(--color-white);
+    border: none;
+}
+
+/* .btnEnvio .inputEnviar {
+
+} */
+
+.btnEnvio:hover {
+    background: #FEB545;
+}
+
+.form input {
+    background: var(--color-input);
+    padding: 15px 65px 15px 20px;
+    border: none;
+    border-radius: 11px;
+    color: var(--dark-blue);
+    margin-top: 20px;
+}
+
+.botoesForm {
+    padding: 15px 0;
+}
+
+.btn {
+    background: var(--color-input);
+    padding: 15px 45px;
+    border: none;
+    border-radius: 11px;
+    color: var(--dark-blue);
+    cursor: pointer;
+    margin: 5px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.btnSim:active {
+    content: " ";
+    background: var(--color-btnSim);
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+.btnNao:active {
+    content: " ";
+    background: var(--color-btnNao);
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+/* ========== PÁGINA RESULTADO ========== */
+.resultadoContent {
+    background: var(--color-background);
+}
+
+.resultadoContent .resultadoContentParagrafo {
+    padding: 100px 200px;
+}
+
+.resultadoContent .resultadoContentParagrafo p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: var(--font-color);
+}
+
+.resultadoContent .resultadoContentParagrafo p .resultadoTextoMaior {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: var(--dark-blue);
+}
+
+.resultado p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 100px 10%;
+}
+
+.resultadoCuidados {
+    padding: 0 10%;
+    margin: 0 0 75px 0;
+}
+
+.resultadoCuidados h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--dark-orange);
+    margin: 30px 0;
+}
+
+.resultadoCuidados .cuidados {
+    background: var(--color-bgcontatos);
+    padding: 30px;
+    border-radius: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    color: var(--font-color);
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+}
+
+.resultadoCuidados .cuidados .listaCuidados {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.resultadoCuidados .cuidados .listaCuidados li {
+    padding: 10px;
+}
+
+.resultadoCuidados .cuidados .listaCuidados li .bullet {
+    color: var(--dark-orange);
+}
+
+.resultadoCuidados .voltarHome {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--dark-blue);
+    margin: 30px 0;
+}
+
+.resultadoCuidados .voltarHome a {
+    text-decoration: none;
+}
+
+/* ========== MOBILE ========== */
+@media (max-height: 768px) {
+    .firstContainer .illustration {
+        width: 100%;
+    }
+
+    .secondContainer {
+        flex-direction: column;
+    }
+
+    .secondIllustration {
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    .thirdContainer {
+        flex-direction: column;
+    }
+
+    .thirdContainer .thirdIllustration {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .headerItens .logo {
+        width: 90%
+    }
+
+    .header .headerItens .headerItensMenu {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .firstContainer {
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .firstContainer .firstContainerContent {
+        padding: 12px;
+    }
+    
+    .firstContainer .firstContainerContent h1 {
+        font-size: 45px;
+        line-height: 60px;
+    } 
+
+    .firstContainer .firstContainerContent p {
+        font-size: 20px;
+        margin: 38px 0 44px;
+    }
+
+    .firstContainer .illustration {
+        width: 70%;
+        top: 20px;
+    }
+
+    .secondContainer {
+        flex-direction: column;
+        padding: 10% 12px;
+    }
+
+    .secondContainer .secondContainerContent h1 {
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: bold;
+        color: var(--dark-orange);
+    }
+    
+    .secondContainer .secondContainerContent p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    .secondIllustration {
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    .thirdContainer {
+        flex-direction: column;
+        padding: 10% 12px;
+    }
+
+    .thirdContainer .thirdContainerContent h1 {
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: bold;
+        color: var(--dark-blue);
+    }
+    
+    .thirdContainer .thirdContainerContent p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+    
+    .thirdContainer .thirdContainerContent .miniAlert {
+        font-size: 14px;
+        margin: 38px 0 64px;
+    }
+
+    .thirdContainer .thirdContainerContent {
+        padding: 10% 12px;
+    }
+
+    .thirdContainer .thirdIllustration {
+        width: 90%;
+    }
+
+    .rodapeContainer {
+        flex-direction: column;
+    }
+
+    .rodapeContainer p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .formContent .formContentParagrafo {
+        padding: 35px;
+    }
+    
+    .formContent .formContentParagrafo p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: var(--font-color);
+    }
+    
+    .formContent .formContentParagrafo p .textoMaior {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        color: var(--dark-blue);
+    }
+
+    .form {
+        padding: 70px 15%;
+    }
+
+    .form .formCols {
+        flex-direction: column;
+    }
+
+    .botoesForm {
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .resultadoContent .resultadoContentParagrafo {
+        padding: 100px 40px;
+    }
+
+    .resultadoCuidados .cuidados .listaCuidados {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+}
