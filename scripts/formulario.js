@@ -7,9 +7,6 @@ function checkboxNao() {
     respostas.push(document.querySelector('input[name="pergunta5"]:checked').value);
     respostas.push(document.querySelector('input[name="pergunta6"]:checked').value);
 
-    console.log(document.querySelector('input[id="nome"]').value);
-    console.log(document.querySelector('input[id="email"]').value);
-
     const result = respostas.filter(function (str) { return str.includes('nao'); });
 
     if (result.length == 1) {
