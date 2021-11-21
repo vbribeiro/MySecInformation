@@ -26,6 +26,4 @@ function checkboxNao() {
     }
 }
 
-const enviar = document.querySelector('#send');
-
-enviar.addEventListener("click", checkboxNao());
+document.getElementById('send').addEventListener('click', checkboxNao());
