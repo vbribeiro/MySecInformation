@@ -14,13 +14,13 @@ function checkboxNao() {
     } else if (result.length == 2) {
         window.location.href = './resultado-pharming.html';
     } else if (result.length == 3) {
-        window.location.href = './resultado-compartilhamento-acidental-de-dados.html';
+        window.location.href = './resultado-phishing.html';
     } else if (result.length == 4) {
         window.location.href = './resultado-malware.html';
     } else if (result.length == 5) {
-        window.location.href = './resultado-vishing.html';
+        window.location.href = './resultado-phishing.html';
     } else if (result.length == 6) {
-        window.location.href = './resultado-malware.html';
+        window.location.href = './resultado-cavalo-de-troia.html';
     } else {
         window.location.href = './resultado-seguro.html';
     }
