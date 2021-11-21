@@ -26,4 +26,7 @@ function checkboxNao() {
     }
 }
 
-document.getElementById('send').addEventListener('click', checkboxNao());
+if (checkboxNao() == null) {
+    document.getElementById('send').addEventListener('click', checkboxNao());
+}
+
