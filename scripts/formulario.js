@@ -20,7 +20,7 @@ function checkboxNao() {
     } else if (result.length == 5) {
         window.location.href = './resultado-vishing.html';
     } else if (result.length == 6) {
-        window.location.href = './resultado-phishing.html';
+        window.location.href = './resultado-malware.html';
     } else {
         window.location.href = './resultado-seguro.html';
     }
