@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="../scripts/formulario.js"></script>
+
+    <title>Avaliação | MySec Information</title>
+</head>
+<body>
+    <section class="header">
+        <nav class="headerItens">
+            <li>
+                <img class="logo" src="/images/MySec Information.svg" alt="MySec Information Logo">
+            </li>
+            <ul class="headerItensMenu">
+                <li><a href="../index.html">Sobre Nós</a></li>
+                <li><a href="./avaliacao.html">Faça sua Avaliação</a></li>
+            </ul>
+        </nav>
+    </section> 
+
+    <section class="formContent">
+        <div class="formContentParagrafo">
+            <p>Preencha o formulário abaixo <br>
+                <span class="textoMaior">para identificarmos qual a possível vulnerabilidade que você possa estar exposto:</span></p>
+        </div>
+    </section>
+
+    <form method="post" class="form" id="formulario-avaliacao">
+        <div class="formCols">
+            <div class="formCol1">
+                <!-- <div class="formDadosNome">
+                    <label for="nome">Nome</label> <br>
+                    <input type="text" id="nome" placeholder="Nome Sobrenome" />
+                </div> -->
+
+
+                <div class="pg pergunta1">
+                    <p>Sua máquina de trabalho é fornecida pela empresa?</p>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim1">
+                            <input class="sim" type="radio" name="pergunta1" id="sim1" value="sim"  />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao1">
+                            <input class="nao" type="radio" name="pergunta1" id="nao1" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="pg pergunta2">
+                    <p>Para o compartilhamento de dados entre colaboradores, há alguma ferramenta padrão?</p>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim2">
+                            <input class="sim" type="radio" name="pergunta2" id="sim2" value="sim"  />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao2">
+                            <input class="nao" type="radio" name="pergunta2" id="nao2" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="pg pergunta3">
+                    <p>É fornecido treinamento básico sobre segurança digital?</p>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim3">
+                            <input class="sim" type="radio" name="pergunta3" id="sim3" value="sim"  />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao3">
+                            <input class="nao" type="radio" name="pergunta3" id="nao3" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="pg pergunta4">
+                    <p>No trabalho você utiliza algum tipo de VPN?</p>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim4">
+                            <input class="sim" type="radio" name="pergunta4" id="sim4" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao4">
+                            <input class="nao" type="radio" name="pergunta4" id="nao4" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="formCol2">
+                <!-- <div class="formDadosEmail">
+                    <label for="email">Email</label> <br>
+                    <input type="email" id="email" placeholder="your@email.com" />
+                </div> -->
+
+                <div class="pg pergunta5">
+                    <p>Há alguma política da empresa de troca periódica de senhas importantes?</p>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim5">
+                            <input class="sim" type="radio" name="pergunta5" id="sim5" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao5">
+                            <input class="nao" type="radio" name="pergunta5" id="nao5" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="pg pergunta6">
+                    <p>Você tem conhecimento do que são malwares ou outros riscos de softwares maliciosos?</p>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim6">
+                            <input class="sim" type="radio" name="pergunta6" id="sim6" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao6">
+                            <input class="nao" type="radio" name="pergunta6" id="nao6" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="pg perguntaEmail">
+                    <p>Você costuma salvar dados em seu navegador? Como por exemplo: telefone, cartões, cpf...</p>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim7">
+                            <input class="sim" type="radio" name="pergunta7" id="sim7" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao7">
+                            <input class="nao" type="radio" name="pergunta7" id="nao7" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="pg botaoEnvio">
+                    <label>Clique em enviar para finalizar o formulário</label>
+                    <div class="botoesForm">
+                        <a class="btnEnvio inputEnviar" href="#" onClick="checkboxNao()">Enviar </a>
+                        <!-- <label for="botaoEnviar" class="btnEnvio" >
+                            <input class="inputEnviar" id="botaoEnviar" type="submit" value="Enviar" >
+                        </label> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+    <footer class="rodapeContainer">
+        <p>MySec Information 2021. Todos os direitos reservados.</p>
+        <p>Designer by MySec Studio</p>
+    </footer>
+</body>
+</html>

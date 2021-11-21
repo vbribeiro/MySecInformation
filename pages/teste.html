@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Avaliação | MySec Information</title>
+</head>
+<body>
+    <section class="header">
+        <nav class="headerItens">
+            <li>
+                <img class="logo" src="/images/MySec Information.svg" alt="MySec Information Logo">
+            </li>
+            <ul class="headerItensMenu">
+                <li><a href="../index.html">Sobre Nós</a></li>
+                <li><a href="./avaliacao.html">Faça sua Avaliação</a></li>
+            </ul>
+        </nav>
+    </section> 
+
+    <section class="formContent">
+        <div class="formContentParagrafo">
+            <p>Preencha o formulário abaixo <br>
+                <span class="textoMaior">para identificarmos qual a possível vulnerabilidade que você possa estar exposto:</span></p>
+        </div>
+    </section>
+
+    <form method="post" class="form">
+        <div class="formCols">
+            <div class="formCol1">
+                <div class="formDadosNome">
+                    <label for="nome">Nome</label> <br>
+                    <input type="text" id="nome" placeholder="Nome Sobrenome" />
+                </div>
+                <div class="pg pergunta1">
+                    <label>Sua máquina de trabalho é fornecida pela empresa?</label>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim">
+                            <input type="checkbox" name="sim" id="sim" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao">
+                            <input type="checkbox" name="nao" id="nao" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+                <div class="pg pergunta2">
+                    <label>Para o compartilhamento de dados entre colaboradores, há alguma ferramenta padrão?</label>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim">
+                            <input type="checkbox" name="sim" id="sim" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao">
+                            <input type="checkbox" name="nao" id="nao" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+                <div class="pg pergunta3">
+                    <label>É fornecido treinamento básico sobre segurança digital?</label>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim">
+                            <input type="checkbox" name="sim" id="sim" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao">
+                            <input type="checkbox" name="nao" id="nao" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+                <div class="pg pergunta4">
+                    <label>No trabalho você utiliza algum tipo de VPN?</label>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim">
+                            <input type="checkbox" name="sim" id="sim" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao">
+                            <input type="checkbox" name="nao" id="nao" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="formCol2">
+                <div class="formDadosEmail">
+                    <label for="email">Email</label> <br>
+                    <input type="email" id="email" placeholder="your@email.com" />
+                </div>
+                <div class="pg pergunta5">
+                    <label>Há alguma política da empresa de troca periódica de senhas importantes?</label>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim">
+                            <input type="checkbox" name="sim" id="sim" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao">
+                            <input type="checkbox" name="nao" id="nao" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+                <div class="pg pergunta6">
+                    <label>Você tem conhecimento do que são malwares ou outros riscos de softwares maliciosos?</label>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim">
+                            <input type="checkbox" name="sim" id="sim" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao">
+                            <input type="checkbox" name="nao" id="nao" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+                <div class="pg perguntaEmail">
+                    <label>Deseja receber as respostas por email?</label>
+                    <div class="botoesForm">
+                        <label class="btn btnSim" for="sim">
+                            <input type="checkbox" name="sim" id="sim" value="sim" />Sim
+                        </label>
+
+                        <label class="btn btnNao" for="nao">
+                            <input type="checkbox" name="nao" id="nao" value="nao" />Não
+                        </label>
+                    </div>
+                </div>
+                <div class="pg botaoEnvio">
+                    <label>Clique em enviar para finalizar o formulário</label>
+                    <div class="botoesForm">
+                        <button type="submit" id="botaoEnviar" class="btnEnvio">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <footer class="rodapeContainer">
+        <p>MySec Information 2021. Todos os direitos reservados.</p>
+        <p>Designer by MySec Studio</p>
+    </footer>
+    
+    <script src="../scripts/formulario.js"></script>
+</body>
+</html>
