@@ -245,9 +245,9 @@
     margin: 5px;
 }
 
-/* input[type="radio"] {
+input[type="radio"] {
     display: none;
-} */
+}
 
 .btnSim:active {
     content: " ";
