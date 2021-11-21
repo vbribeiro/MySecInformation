@@ -25,3 +25,9 @@ function checkboxNao() {
         window.location.href = './resultado-seguro.html';
     }
 }
+
+const enviar = document.querySelector('#send');
+
+enviar.addEventListener("click", () => {
+    checkboxNao();
+});
